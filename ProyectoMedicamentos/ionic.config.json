@@ -1,0 +1,7 @@
+{
+  "name": "litaPersona",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
