@@ -14,6 +14,6 @@ export class HomePage {
 
   constructor(private httpClient: HttpClient) {
 
-    this.users = this.httpClient.get('https://randomuser.me/api/?results=20').pipe(map(res => res['results']));
+    this.users = this.httpClient.get('https://raw.githubusercontent.com/AlbertoLMSIG/ProyectoHLC/master/medicamento.json');
 }
 }

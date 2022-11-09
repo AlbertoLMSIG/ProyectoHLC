@@ -13,14 +13,13 @@
   <ion-grid>
     <ion-row>
       <ng-container *ngFor="let user of users | async">
-        <ion-col *ngIf="filtro=='' || user.name.first.startsWith(filtro)" size-xl="2" size-lg="3" size-md="4" size-sm="6" size-xs="12">
+        <ion-col *ngIf="filtro=='' || user.name.startsWith(filtro)" size-xl="2" size-lg="3" size-md="4" size-sm="6" size-xs="12">
           <ion-card>
             <ion-card-content>
               <!-- <ion-avatar>
                 <img [src]="user.picture.medium">
               </ion-avatar> -->
-              <h1>{{ user.name.first}} {{ user.name.last }}</h1>
-              Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+              <h1>{{ user.compañia }} {{ user.fda}}</h1>
             </ion-card-content>
           </ion-card>
         </ion-col>
