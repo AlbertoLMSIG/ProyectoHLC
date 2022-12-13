@@ -53,3 +53,8 @@ h2{
   font: caption;
   font-size: medium;
 }
+@media (orientation: landscape) {
+   .title{
+    display: none;
+  }
+}
